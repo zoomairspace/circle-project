@@ -15,6 +15,9 @@ import javax.inject.Singleton;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Bind dependencies
+ */
 public class CircleModule extends AbstractModule {
 
     @Override

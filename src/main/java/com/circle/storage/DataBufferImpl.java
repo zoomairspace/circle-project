@@ -12,6 +12,9 @@ import com.google.common.base.Preconditions;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * {@link DataBuffer} implementation
+ */
 public class DataBufferImpl implements DataBuffer {
 
     // initialize to empty in case initialize(...) wasn't called first

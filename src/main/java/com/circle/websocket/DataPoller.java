@@ -20,6 +20,9 @@ import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * WebSocket
+ */
 @WebSocket
 public class DataPoller {
 

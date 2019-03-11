@@ -5,6 +5,9 @@ import org.eclipse.jetty.websocket.client.WebSocketClient;
 import javax.inject.Inject;
 import java.net.URI;
 
+/**
+ * WebSocket client
+ */
 public class DataPollerTask implements Runnable {
 
     private static final String WS_ENDPOINT = "wss://api2.poloniex.com";

@@ -23,7 +23,13 @@ public class Resource {
 	@Inject
 	private DataBuffer dataBuffer;
 
-
+	/**
+	 * Get request for retrieving data
+	 * @param currencyPair
+	 * @param price
+	 * @param side
+	 * @return
+	 */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("{currency_pair}")

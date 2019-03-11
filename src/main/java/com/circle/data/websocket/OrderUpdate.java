@@ -5,6 +5,9 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * Order update data object
+ */
 @Data
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 public class OrderUpdate {

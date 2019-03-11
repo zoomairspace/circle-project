@@ -8,6 +8,9 @@ import lombok.ToString;
 
 import java.util.Map;
 
+/**
+ * Order book data object
+ */
 @Data
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @ToString
